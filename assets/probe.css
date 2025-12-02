@@ -1,0 +1,23 @@
+body.cdn-verification-kit-blocked {
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.cdn-verification-kit-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #000000cc;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+  font-family: 'Courier New', monospace;
+  font-size: 1.5rem;
+  text-align: center;
+  pointer-events: all;
+}
+
