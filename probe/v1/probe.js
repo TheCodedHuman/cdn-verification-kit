@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // 🛰️ Send to backend
-    fetch("https://your-backend.com/api/telemetry", {
+    fetch(`${CONFIG.BACKEND_URL}/api/telemetry`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)

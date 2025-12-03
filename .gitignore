@@ -1,0 +1,6 @@
+# Ignore real config
+config.js
+
+# Ignore test files
+tests/test.html
+
