@@ -1,3 +1,5 @@
+import { CONFIG } from "../config.js"
+
 document.addEventListener("DOMContentLoaded", function () {
     // Inject CSS
     const cssLink = document.createElement("link");
@@ -52,5 +54,4 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("Probe error:", err);
         });
 });
-
 
